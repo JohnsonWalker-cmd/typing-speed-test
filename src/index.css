@@ -1,0 +1,23 @@
+@import 'tailwindcss';
+
+@theme {
+    --font-display : "Sora", sans-serif;
+
+
+    --color-neutral-900 : #121212;
+    --color-neutral-800:  #262626;
+    --color-neutral-500:  #717178;
+    --color-neutral-400:  #949497;
+    --color-neutral-0:    #FFFFFF; 
+
+
+    --color-blue-600 : #177dff;
+    --color-blue-400 : #4CA6FF;
+
+
+    --color-red-500 : #D64D5B;
+
+    --color-green-500 : #4DD67B;
+
+    --color-yellow-400 : #F4DC73;
+}
