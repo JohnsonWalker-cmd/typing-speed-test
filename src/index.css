@@ -21,3 +21,14 @@
 
     --color-yellow-400 : #F4DC73;
 }
+
+/* Blinking cursor on the current character */
+.cursor-char {
+    border-bottom: 3px solid var(--color-yellow-400);
+    animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+    0%, 100% { border-bottom-color: var(--color-yellow-400); }
+    50% { border-bottom-color: transparent; }
+}
